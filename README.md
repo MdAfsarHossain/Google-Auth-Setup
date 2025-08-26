@@ -26,3 +26,7 @@ app.use(
 app.use(passport.initialize());
 app.use(passport.session());
 ```
+
+#
+
+In `src/app/config/passport.ts`
