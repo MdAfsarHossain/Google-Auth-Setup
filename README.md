@@ -11,6 +11,11 @@
 In `app.ts` file
 
 ```js
+import expressSession from "express-session";
+import passport from "passport";
+```
+
+```js
 app.use(
   expressSession({
     secret: envVars.EXPRESS_SESSION_SECRET,
