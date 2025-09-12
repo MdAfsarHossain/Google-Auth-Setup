@@ -133,3 +133,11 @@ router.get(
   AuthControllers.googleCallbackController
 );
 ```
+
+In `.env` file
+
+```js
+GOOGLE_CLIENT_SECRET=
+GOOGLE_CLIENT_ID=
+GOOGLE_CALLBACK_URL=http://localhost:5000/api/v1/auth/google/callback
+```
