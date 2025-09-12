@@ -141,3 +141,8 @@ GOOGLE_CLIENT_SECRET=
 GOOGLE_CLIENT_ID=
 GOOGLE_CALLBACK_URL=http://localhost:5000/api/v1/auth/google/callback
 ```
+
+```js
+# Express Session
+EXPRESS_SESSION_SECRET=express-session
+```
